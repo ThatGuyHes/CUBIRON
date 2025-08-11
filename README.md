@@ -1,21 +1,25 @@
-# 🧊 Cubiron — DIY Tiny FDM 3D Printer (70x70x70mm)
+# 🧊 Cubiron — DIY Tiny FDM 3D Printer
 
-Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost building, small-format printing, and hands-on learning. It's built entirely from open-source parts and the cheapest components available, using custom printable mechanics and Klipper firmware.
+Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, small-format printing, and hands-on learning. It's built entirely from open-source parts and the cheapest components available, using custom printable mechanics and Klipper firmware.
 
 ![Cubiron](images/cubiron_final_cad.jpg)
+
+---
+## ✏️ Editor's Notes
+- Not much here yet.
 
 ---
 
 ## 🔧 Features
 
-- 🧠 **Klipper firmware** on a **Raspberry Pi Zero 2W**
-- 🦾 **MGN9C 100mm rails** on all axes
-- 🔥 **Bambu clone hotend** + **Hummingbird extruder** (HGX-Lite)
-- ⚙️ **Handmade 3mm 2GT belts**
-- 🧊 **Cold print bed** (mechanically attached)
-- 🧰 **Mellow Fly Micro4** + **NEMA 14 steppers**
-- 🔌 Powered via **USB-C PD — 20V, 100W** input
-- 💡 **PLA-only** design for simplicity
+- 🔲 **70x70x65mm** Print Volume
+- 📏 **144x145x148mm** Printer Size
+- 🚀 Up to **500mm/s** and **10k mm/s²**
+- 💧 **~10mm³ Flow** with PLA
+- 🏷️ **~$250** Hardware cost
+- 🧰 **1.5kg or 3.3lbs** Weight
+- 🔌 **USB-C 20V**
+- 💡 All 3d printed parts from **PETG**
 - 📐 Includes **CAD files, BOM, STLs, printer.cfg**, and **slicer profiles**
 
 ---
@@ -39,9 +43,10 @@ Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost build
 
 | Feature        | Value                          |
 |----------------|--------------------------------|
-| Build Volume   | 70 × 70 × 70 mm                |
-| Motion System  | MGN9C 100mm rails              |
-| Drive Belts    | 2GT 3mm wide                   |
+| Build Volume   | 70 × 70 × 65 mm                |
+| Hotend Temp    | Up to 230°C due to 20V         |
+| Drive Belts    | 2GT, 3mm wide                  |
+| Linear Rails   | MGN9C - 100mm                  |
 | Extruder       | Hummingbird w/ HGX-Lite parts  |
 | Hotend         | BambuLab clone hotend          |
 | Board          | Mellow Fly Micro4              |
@@ -78,6 +83,16 @@ This is a passion project — feedback, pull requests, remixes, and improvements
 
 ---
 
+## ❓ FAQ
+
+<details>
+  <summary>Click to expand</summary>
+
+  This project helps you manage tasks efficiently using AI.
+
+</details>
+
+---
 ## 🧾 License
 
 Cubiron is licensed under the **CERN-OHL-S v2** license.
