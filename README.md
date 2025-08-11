@@ -1,64 +1,90 @@
-# CUBIRON
-Small format, low cost 3d printer
+# 🧊 Cubiron — DIY Tiny FDM 3D Printer (70x70x70mm)
 
-🧊 Cubiron — Tiny DIY FDM 3D Printer (70x70x70mm)
-Cubiron is an ultra-compact, fully DIY 3D printer designed from scratch for minimal cost, minimal size, and maximum learning. With a build volume of just 70×70×70mm, this project is ideal for tinkerers, makers, and experimenters looking to explore the limits of low-cost, small-format FDM printing.
+Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost building, small-format printing, and hands-on learning. It's built entirely from open-source parts and the cheapest components available, using custom printable mechanics and Klipper firmware.
 
-<img src="images/cubiron_hero.jpg" alt="Cubiron Printer" width="600"/>
-🔧 Highlights
-🧠 Klipper Firmware powered by a Raspberry Pi Zero 2W
+![Cubiron](images/cubiron_final_cad.jpg)
 
-🔥 Bambu clone hotend with Hummingbird extruder (HGX-Lite hardware)
+---
 
-🦾 MGN9C linear rails (100mm travel) on all axes
+## 🔧 Features
 
-💡 Handmade 2GT belts (3mm wide)
+- 🧠 **Klipper firmware** on a **Raspberry Pi Zero 2W**
+- 🦾 **MGN9C 100mm rails** on all axes
+- 🔥 **Bambu clone hotend** + **Hummingbird extruder** (HGX-Lite)
+- ⚙️ **Handmade 3mm 2GT belts**
+- 🧊 **Cold print bed** (mechanically attached)
+- 🧰 **Mellow Fly Micro4** + **NEMA 14 steppers**
+- 🔌 Powered via **USB-C PD — 20V, 100W** input
+- 💡 **PLA-only** design for simplicity
+- 📐 Includes **CAD files, BOM, STLs, printer.cfg**, and **slicer profiles**
 
-🧊 PLA-only setup with mechanically attached cold print bed
+---
 
-💸 Built with the cheapest possible components
+## 📦 Included in this Repo
 
-📐 Full CAD, BOM, build manual, and printer.cfg included
+| Folder/File       | Description                           |
+|-------------------|---------------------------------------|
+| `CAD/`            | Source and STEP files                 |
+| `STLs/`           | Printable parts                       |
+| `firmware/`       | Klipper configuration (`printer.cfg`) |
+| `slicer/`         | Slicer profile for PLA                |
+| `docs/`           | Build manual, wiring diagrams, etc.   |
+| `BOM.md`          | Bill of materials                     |
+| `LICENSE`         | CERN-OHL-S v2 license                 |
+| `README.md`       | You're here!                          |
 
-🧰 Built around a Mellow Fly Micro4 board and NEMA 14 stepper motors
+---
 
-📦 What's Included
-This repository includes everything you need to build your own Cubiron:
+## 🛠 Specifications
 
-✅ STEP files and printable STLs
+| Feature        | Value                          |
+|----------------|--------------------------------|
+| Build Volume   | 70 × 70 × 70 mm                |
+| Motion System  | MGN9C 100mm rails              |
+| Drive Belts    | 2GT 3mm wide                   |
+| Extruder       | Hummingbird w/ HGX-Lite parts  |
+| Hotend         | BambuLab clone hotend          |
+| Board          | Mellow Fly Micro4              |
+| SBC            | Raspberry Pi Zero 2W           |
+| Filament       | PLA only                       |
+| Print Bed      | Cold, mechanical mount         |
+| Firmware       | Klipper                        |
+| Power Supply   | USB-C PD 20V 100W              |
 
-✅ Klipper configuration (printer.cfg)
+---
 
-✅ Slicer profiles (for PLA)
+## 🚧 Getting Started
 
-✅ Full BOM with links
+0. **Read the "Printing Guidelines" section in the build guide!**
+1. **3D print the STLs** in `STLs/`
+2. **Follow the build guide** in `docs/build_manual.pdf`
+3. **Flash Klipper** on your Pi Zero 2W
+4. **Upload `printer.cfg`** and tune as needed
+5. **Slice using the included profile** in `slicer/`
 
-✅ Build guide/manual
 
-✅ Wiring diagrams and hardware specs
+---
 
-📸 Gallery
-Add images here once uploaded, e.g.:
+## 🙏 Acknowledgements
 
-View	Image
-Front	
-Electronics	
-Printed Benchy	
+- Inspired by the DIY 3D printing community
+- Thanks to the creators of Klipper, Hummingbird, and open hardware pioneers
 
-🧪 Specs
-Feature	Description
-Build Volume	70 × 70 × 70 mm
-Firmware	Klipper
-Controller	Mellow Fly Micro4
-SBC	Raspberry Pi Zero 2W
-Motion	MGN9C linear rails (100mm)
-Drive	Handmade 3mm 2GT belts
-Extruder	Hummingbird w/ HGX-Lite
-Filament	PLA only
-Bed	Mechanically attached cold bed (no heat)
-Hotend	Bambu clone
-Stepper Motors	NEMA 14
+---
 
-🚧 Goals
+## 💬 Contribute
 
-[![License: CERN-OHL-S v2](https://img.shields.io/badge/License-CERN--OHL--S%20v2-blue.svg)](https://ohwr.org/project/cernohl/wikis/home)
+This is a passion project — feedback, pull requests, remixes, and improvements are welcome!
+
+---
+
+## 🧾 License
+
+Cubiron is licensed under the **CERN-OHL-S v2** license.
+
+> This means you can use, modify, build, and sell it — but you must share changes under the same license.
+
+📄 [License Overview](LICENSE-OVERVIEW.md)  
+📜 [Full License Text](LICENSE)
+
+[![License: CERN-OHL-S v2](https://img.shields.io/badge/License-CERN--OHL--S%202.0-blue.svg)](https://ohwr.org/cern_ohl)
