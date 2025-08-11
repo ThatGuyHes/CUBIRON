@@ -1,18 +1,25 @@
-🛡️ License Overview – CERN-OHL-S v2
-This project is licensed under the CERN Open Hardware License v2 – Strongly Reciprocal (CERN-OHL-S v2).
+🛡 License – CERN-OHL-S v2
+This project is licensed under the CERN Open Hardware License v2 – Strongly Reciprocal (CERN-OHL-S-2.0).
 
-What You Can Do:
-✅ Use the design and files freely
-✅ Modify and build upon them
-✅ Distribute copies or remixes
-✅ Sell hardware based on the design
+✅ You are free to:
+Use the design and files
 
-What You Must Do:
-🔁 Share any changes under the same license
-📝 Include this license with your distribution
-📂 Make source files available if you share binaries or physical builds
-🧾 Credit the original authors
+Modify and remix them
 
-What You Can't Do:
-🚫 Use this license to close-source modifications
-🚫 Re-license modified versions under a more restrictive license
+Distribute your own versions
+
+Sell hardware based on this project
+
+🔁 You must:
+Share your modifications under the same license
+
+Include this license with any distributions
+
+Provide source files if you distribute hardware or binaries
+
+Credit the original author
+
+🚫 You cannot:
+Re-license your changes under a more restrictive license
+
+Distribute modified versions without source files
