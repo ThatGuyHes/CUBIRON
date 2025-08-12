@@ -30,10 +30,9 @@ Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, smal
 |-------------------|---------------------------------------|
 | `CAD/`            | Source and STEP files                 |
 | `STLs/`           | Printable parts                       |
-| `firmware/`       | Klipper configuration (`printer.cfg`) |
-| `slicer/`         | Slicer profile for PLA                |
-| `docs/`           | Build manual, wiring diagrams, etc.   |
-| `BOM.md`          | Bill of materials                     |
+| `firmware/`       | Klipper config-files                  |
+| `slicer/`         | Slicer profile                        |
+| `docs/`           | Build manual, BOM                     |
 | `LICENSE`         | CERN-OHL-S v2 license                 |
 | `README.md`       | You're here!                          |
 
@@ -99,7 +98,6 @@ Cubiron is licensed under the **CERN-OHL-S v2** license.
 
 > This means you can use, modify, build, and sell it — but you must share changes under the same license.
 
-📄 [License Overview](LICENSE-OVERVIEW.md)  
 📜 [Full License Text](LICENSE)
 
 [![License: CERN-OHL-S v2](https://img.shields.io/badge/License-CERN--OHL--S%202.0-blue.svg)](https://ohwr.org/cern_ohl)
