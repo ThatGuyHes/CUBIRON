@@ -16,7 +16,7 @@ Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, smal
 - 📏 **144x145x148mm** Printer Size
 - 🚀 Up to **500mm/s** and **10k mm/s²**
 - 💧 **~10mm³ Flow** with PLA
-- 🏷️ **~$250** Hardware cost
+- 🏷️ **~$270** Hardware cost
 - 🧰 **1.5kg or 3.3lbs** Weight
 - 🔌 **USB-C 20V**
 - 💡 All 3d printed parts from **PETG**
