@@ -63,7 +63,6 @@ Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, smal
 2. **Follow the build guide** in `docs/build_manual.pdf`
 3. **Flash Klipper** on your Pi Zero 2W
 4. **Upload `printer.cfg`** and tune as needed
-5. **Slice using the included profile** in `slicer/`
 
 
 ---
