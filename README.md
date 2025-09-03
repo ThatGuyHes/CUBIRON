@@ -6,7 +6,7 @@ Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, smal
 
 ---
 ## ✏️ Editor's Notes
-- Not much here yet.
+- 03/09/2025: Added files for 1st public release.
 
 ---
 
@@ -31,7 +31,6 @@ Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, smal
 | `CAD/`            | Source and STEP files                 |
 | `STLs/`           | Printable parts                       |
 | `firmware/`       | Klipper config-files                  |
-| `slicer/`         | Slicer profile                        |
 | `docs/`           | Build manual, BOM                     |
 | `LICENSE`         | CERN-OHL-S v2 license                 |
 | `README.md`       | You're here!                          |
@@ -87,7 +86,7 @@ This is a passion project — feedback, pull requests, remixes, and improvements
 <details>
   <summary>Click to expand</summary>
 
-  This project helps you manage tasks efficiently using AI.
+  Empty.
 
 </details>
 
