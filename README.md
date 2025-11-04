@@ -77,6 +77,7 @@ Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, smal
 ## 💬 Contribute
 
 This is a passion project — feedback, pull requests, remixes, and improvements are welcome!
+For any further inquiries, feel free to reach out to my e-mail: rocode.office@gmail.com
 
 ---
 
