@@ -1,6 +1,6 @@
 # 🧊 Cubiron — DIY Tiny FDM 3D Printer
 
-Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, small-format printing, and hands-on learning. It's built entirely from open-source parts and the cheapest components available, using custom printable mechanics and Klipper firmware.
+Cubiron is a DIY, compact FDM 3D printer designed for low-cost, small-format printing and hands-on learning. It's built entirely from open-source parts and the cheapest components available, using custom printable mechanics and Klipper firmware.
 
 ![Cubiron](images/cubiron_final_cad.jpg)
 
@@ -72,23 +72,25 @@ Cubiron is a fully DIY, ultra-compact FDM 3D printer designed for low-cost, smal
 - Inspired by the DIY 3D printing community
 - Thanks to the creators of Klipper, Hummingbird, and open hardware pioneers
 
----
-
-## 💬 Contribute
-
-This is a passion project — feedback, pull requests, remixes, and improvements are welcome!
-For any further inquiries, feel free to reach out to my e-mail: rocode.office@gmail.com
 
 ---
 
 ## ❓ FAQ
 
 <details>
-  <summary>Click to expand</summary>
+  <summary>Are there any new plans for the Cubiron project?</summary>
 
-  Empty.
+  Not at the moment. Though I have some major changes in mind.
+  Such as a 24V power supply, heated bed, and full enclosure.
 
 </details>
+
+---
+
+## 💬 Contribute
+
+This is a passion project — feedback, pull requests, remixes, and improvements are welcome!
+
 
 ---
 ## 🧾 License
